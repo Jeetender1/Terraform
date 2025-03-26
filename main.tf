@@ -3,3 +3,10 @@ resource "azurerm_resource_gitbub" "github" {
     location = "westeurope"
   
 }
+
+
+resource "azurerm_resource_group" "newnew" {
+    name = "rg1"
+    location = "eastus"
+  
+}
